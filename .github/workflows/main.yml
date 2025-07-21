@@ -1,10 +1,8 @@
 # Based on https://github.com/OwlPlug/owlplug-scanner/blob/master/.github/workflows/main.yml
 name: RdPiano
 
-on: 
-  push:
-    branches: 
-      - '**'
+on: [workflow_dispatch]
+#on: [push, pull_request]
 
 jobs:
   build-win:
